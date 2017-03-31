@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="scripts/angular.js"> </script>
+    <script src="scripts/customDirective.js"></script>
+</head>
+<body ng-app="directiveModule">
+    <div ng-controller="directiveController">
+        Name: {{ employee.name }}
+    </div>
+    <div ng-controller="directiveController">
+        Title: {{ employee.title }}
+    </div>
+    <div ng-controller="directiveController">
+        Country: {{ employee.country }}
+    </div>
+
+    <div my-shared-scope></div>
+</body>
+</html>
+
+
+

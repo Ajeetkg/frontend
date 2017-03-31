@@ -12,14 +12,14 @@ var myController = function($scope){
 
     var employee = {
         name: "Ajeet",
-        title: "Entrepreneur",
+        title: "CEO",
         country: "India"
     }
     $scope.employee=employee;
 };
 
 var myApp = angular
-            .module("myModule",[])
+            .module("myModule4",[])
     .controller("myController", ['$scope', '$location',myController]);
 
 
